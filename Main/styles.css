@@ -1,0 +1,58 @@
+/* /* button:hover {
+  background: blue;
+}
+button:active {
+  background: red;
+}
+button:focus {
+  outline: 3px solid green;
+} */
+/* input:checked + span {
+  background: #30b868;
+} */
+/* input {
+  padding: 12px;
+  border: 2px solid #ccc;
+}
+
+input:focus {
+  border-color: #30b868;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+input:valid {
+  border-color: green;
+} */
+/*
+.card {
+  padding: 30px;
+  border-radius: 12px;
+  transition: 0.3s;
+}
+/*
+/*
+.card.card:nth-child(2n + 1) {
+  background: #f4f4f4;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+} */
+.cards {
+  box-sizing: border-box;
+  width: 300px;
+  background: linear-gradient(
+    to right,
+    rgb(255, 0, 0),
+    rgb(9, 23, 220),
+    white,
+    green
+  );
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
